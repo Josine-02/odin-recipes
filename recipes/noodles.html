@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Noodles</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1>Josine's Noodles</h1>
@@ -10,17 +11,17 @@
     <!-- Link to homepage -->
     
     <p>
-    <img src="../images/noodles.jpg" heigth ="150", width="150" alt="noodles">
+    <img src="../images/noodles.jpg" alt="noodles">
     <!-- image of noodles -->
     </p>
 
-    <p>
-        Deze heerlijke Udon noodle's zijn perfect voor een koude winteravond.</p>
-        <p>Lekker makkelijk te bereiden en heerlijk van smaak!</p>
+    <p class="description">
+        Deze heerlijke Udon noodle's zijn perfect voor een koude winteravond.
+        Lekker makkelijk te bereiden en heerlijk van smaak!</p>
 
     <p><h3> Ingredienten</h3></p>
     <p>
-        <ul style="list-style-type: circle">
+        <ul style="list-style-type: circle" class="ingredients">
             <li> 300g Udon noodles</li>
             <li> 200g (vega)kipstukjes</li>
             <li> 200g Paksoi</li>
@@ -33,8 +34,10 @@
         </ul>
     </p>
     
-    <p> <h3>Bereiding</h3></p>
-    <ol>
+    <div class="bereiding kopje">
+    <p><h3>Bereiding</h3></p>
+    </div>
+    <ol class="bereiding">
        <li>Snij de ui en Paksoi.</li>
        <li>Fruit de uit in een pan met wat olie.</li>
        <li>Bak de (vega)kipstukjes bij de ui voor 5 minuten.</li>

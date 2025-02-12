@@ -1,0 +1,8 @@
+/* .links{font-size: 36px;} werkte niet */
+img {width: auto; height:180px}
+.description {font-style: italic}
+.ingredients {color:purple}
+
+.bereiding {background-color: aqua;}
+.kopje {font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif}
+.title {color:yellow}
