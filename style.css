@@ -1,8 +1,73 @@
-/* .links{font-size: 36px;} werkte niet */
-img {width: auto; height:180px}
-.description {font-style: italic}
-.ingredients {color:purple}
+/* *{outline: 2px solid red} */
 
-.bereiding {background-color: aqua;}
-.kopje {font-style:italic}
-.title {color:yellow}
+/* default styling voor noodles */
+.title-on-page{text-align: center;
+margin: 10px;}
+/* margin-top: 10px; -> dit werkt niet bij de titel?? */ 
+
+.container-a{
+    margin: 10px;
+    padding: 10px;
+background-color: rgb(255, 219, 252)}
+
+.container-button{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 788px;
+    margin-bottom: -800px;}
+    /* margin-right: 0px} Dit werkt niet... */ 
+
+ .container-a-one{
+    display:inline-block;
+    margin-right: 200px;
+    margin-top: -30px;    }
+   
+    .description {
+    font-style: italic;
+    padding: 5px;}
+
+    .ingredients {color:rgb(105, 5, 105);}
+    
+ .container-a-two{
+    display: inline-block;
+    margin-left: 575px;
+    margin-top:-900px;
+    margin-bottom: 0px;
+    padding: 10px;}
+
+    img{
+        margin: 15px;
+        width: auto; height:280px;}
+
+.container-b{
+    margin: 10px;
+    background-color: rgb(185, 248, 248);
+    padding: 10px;
+padding-bottom: 30px;}
+       
+    .bereiding {
+        color: color:rgb(2, 21, 128)    }
+
+    .kopje {font-style:italic}
+
+    .bereiding.kopje {padding: 5px;}
+
+.lijst{margin:5px;
+    color:rgb(2, 21, 128)}
+
+/* veranderingen voor tomatensoep */
+.container-a-one-tomaat-pannekoek{
+    display:inline-block;
+    margin-right: 200px;
+    margin-top: -30px;    }
+
+.container-a-two-tomaat-pannekoek{
+    display: inline-block;
+    margin-left: 555px;
+    margin-top:-900px;
+    margin-bottom: 0px;
+    padding: 10px;}
+    
+    .img_tomaat-pannekoek{
+        margin: 15px;
+        width: auto; height:200px;} 
